@@ -1,0 +1,45 @@
+{
+	"name": "lechpat/cake-resque",
+	"description" : "A CakePHP 3 plugin for creating background jobs with Resque",
+	"version": "4.1.2",
+	"keywords": ["php-resque", "resque", "cli", "cakephp", "background jobs", "scheduled jobs"],
+  "homepage": "https://github.com/lechpat/CakeResque",
+	"type": "cakephp-plugin",
+	"extra": {
+		"installer-name": "CakeResque"
+	},
+	"authors": [
+		{
+			"name": "Wan Chen",
+			"email": "kami@kamisama.me",
+			"homepage": "http://www.kamisama.me",
+			"role": "Developer"
+		},
+    {
+      "name": "Mario Valdez",
+      "email": "lechpat@me.com"
+    }
+	],
+	"license": "MIT",
+	"require": {
+    "php": ">=5.4.16",
+    "cakephp/cakephp": "~3.0",
+    "kamisama/php-resque-ex": ">=1.2.4",
+    "kamisama/php-resque-ex-scheduler": ">=1.1.1",
+    "kamisama/resque-status": ">=0.0.1"
+	},
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+      "psr-4": {
+        "CakeResque\\": "src"
+      }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "CakeResque\\Test\\": "tests",
+      "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+    }
+  }
+}
