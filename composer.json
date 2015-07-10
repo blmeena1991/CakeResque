@@ -1,9 +1,9 @@
 {
-	"name": "lechpat/cake-resque",
+    "name": "lechpat/cake-resque",
 	"description" : "A CakePHP 3 plugin for creating background jobs with Resque",
 	"version": "4.1.2",
 	"keywords": ["php-resque", "resque", "cli", "cakephp", "background jobs", "scheduled jobs"],
-  "homepage": "https://github.com/lechpat/CakeResque",
+    "homepage": "https://github.com/lechpat/CakeResque",
 	"type": "cakephp-plugin",
 	"extra": {
 		"installer-name": "CakeResque"
